@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* * {
+            padding: 0;
+            margin: 0;
+        } */
+        li {
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <form action="search.php">
+        <input type="radio">
+        <input type="checkbox">
+        <input type="color">
+        <input type="password" placeholder="검색어를 입력하세요.">
+        <input type="submit" value="검색">
+        <input type="reset" value="다시 쓰기">
+
+        <ul>
+            <li>
+                <input type="checkbox" id="korean">
+                <label for="korean"> 국어</label>
+            </li>
+            <li><input type="checkbox" id="english"><label for="english"> 영어</label></li>
+            <li><input type="checkbox" id="math"><label for="math"> 수학</label></li>
+        </ul>
+
+
+        <fieldset>
+            <legend>주요 과목 리스트</legend>
+            <ul>
+                <li><input type="radio" name="subject"> 국어</li>
+                <li><input type="radio" name="subject"> 영어</li>
+                <li><input type="radio" name="subject"> 수학</li>
+            </ul>
+                <input type="radio" name="subject"> 국어
+                <input type="radio" name="subject"> 국어
+                <input type="radio" name="subject"> 국어
+                <input type="radio" name="subject"> 국어
+                <input type="radio" name="subject"> 국어
+                <input type="radio" name="subject"> 국어
+        </fieldset>
+
+        <select>
+            <option>국어</option>
+            <option>영어</option>
+            <option>수학</option>
+        </select>
+
+        <textarea cols="30" rows="10">
+
+        </textarea>
+        <button type="submit"><img src="images/tick.png" alt="">전송</button>
+    </form>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio deleniti id consequatur quas. Iusto in porro minus culpa officia quae, aperiam dolor placeat tenetur possimus repellendus aliquam sapiente animi corporis.
+</body>
+</html>
