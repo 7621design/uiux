@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>에스원 박스</title>
+    <link rel="stylesheet" href="http://deckerda.dothome.co.kr/portfolio/css/normalize.css">
+    <style>
+        /* 공통 */
+        .inner {width: 1400px; margin: 0 auto; overflow: hidden;}
+        .box_grey {background-color: #a6a6a6;}
+        .cons {height: 298px; background-color: #000;}
+        .title {width: 624px; height: 197px; float: left; margin-top: 56px;}
+        .cons_form {width: 716px; height: 156px; float: right;  margin-top: 75px;}
+        
+        .gnb_logo {width: 154px; height: 118px; float: left;}
+        .main_gnb {height: 118px; line-height: 118px; float: right;}
+        .main_gnb li {display: inline-block; margin-left: 20px;}
+        
+        .visual_area {height: 850px; position: relative; background-color: #000;}
+        .title_wrap {width: 752px; height: 653px; position: absolute; top: 94px; left: calc(50% + 14px);}
+
+        .con_area {margin-bottom: 165px;}
+        .news {width: 433px; height: 197px; float: left;}
+        .con_box {width: 728px; height: 197px; float: right;}
+
+        .service_corp {margin-bottom: 225px;}
+        .service_corp ul li {float: left; width: 320px; height: 395px; margin-right: 40px; background-color: #a6a6a6;}
+        .service_corp ul li:last-child {margin: 0;}
+
+        .service_shop {margin-bottom: 270px; text-align: center;}
+        .service_shop h2 {font-size: 60px; margin-bottom: 65px;}
+        .service_shop p {font-size: 26px; margin-bottom: 87px;}
+        .service_shop ul {width: 1352px; line-height: 360px; margin: 0 auto;}
+        .service_shop ul li { float: left; width: 360px; height: 360px; margin-right: 136px; border-radius: 50%; background-color: #a6a6a6;}
+        .service_shop ul li:last-child {margin: 0;}
+
+        .shortcuts ul li {position: relative; float: left; width: 628px; height: 316px; margin: 0 144px 112px 0; background-color: #a6a6a6;}
+        .shortcuts ul li:nth-of-type(even) {margin: 0 0 112px 0;}
+
+        footer {font-size: 20px; text-align: center;}
+        footer ul.banner {display: flex; justify-content: space-between; margin-bottom: 80px;}
+        footer ul.banner li {width: 400px; height: 114px; background-color: #a6a6a6;}
+        footer  > div:nth-of-type(1) {height: 79px; line-height: 79px; background-color: #ccc;}/* first-child로 안잡힘 설명 */
+        footer > div ul li {width: 79px; height: 79px; display: inline-block; background-color: #a6a6a6;}
+        footer > div:nth-of-type(2) {padding: 63px 0; line-height: 1.8; color: #888;}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="cons">
+            <div class="inner">
+                <div class="title box_grey">624 x 197</div>
+                <div class="cons_form box_grey">716 x 156</div>
+            </div>
+        </div>
+        <div class="inner">
+            <h1 class="gnb_logo box_grey">154 x 118</h1>
+            <nav>
+            <ul class="main_gnb box_grey">
+                <li>메뉴</li>
+                <li>메뉴</li>
+                <li>메뉴</li>
+                <li>메뉴</li>
+                <li>메뉴</li>
+                <li>메뉴</li>
+                <li>메뉴</li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <div class="visual_area">
+        <div class="title_wrap box_grey">752 X 653</div>
+    </div>
+    <div class="content_wrap">
+      <div class="con_area inner">
+        <div class="news box_grey">433 X 197</div>
+        <ul class="con_box box_grey">728 X 197</ul>
+      </div>
+      <div class="service_corp inner">
+        <ul>
+          <li>320 X 395</li>
+          <li>320 X 395</li>
+          <li>320 X 395</li>
+          <li>320 X 395</li>
+        </ul>
+      </div>
+      <div class="service_shop inner">
+        <h2>Lorem ipsum</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <ul>
+          <li>360 X 360</li>
+          <li>360 X 360</li>
+          <li>360 X 360</li>
+        </ul>
+      </div>
+      <div class="shortcuts inner">
+            <ul>
+              <li>628 X 326</li>
+              <li>628 X 326</li>
+              <li>628 X 326</li>
+              <li>628 X 326</li>
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <ul class="banner inner">
+            <li>400 X 114</li>
+            <li>400 X 114</li>
+            <li>400 X 114</li>
+        </ul>
+        <div>
+            <ul>
+                <li>79 X 79</li>
+                <li>79 X 79</li>
+                <li>79 X 79</li>
+                <li>79 X 79</li>
+                <li>79 X 79</li>
+                <li>79 X 79</li>
+                <li>79 X 79</li>
+            </ul>
+        </div>
+        <div>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
+            Maiores esse inventore cum perspiciatis nemo consequuntur deleniti, <br>
+            eligendi debitis excepturi rem nesciunt eius? Ab itaque maxime delectus quaerat amet magnam doloribus?
+        </div>
+    </footer>
+</body>
+</html>
